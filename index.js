@@ -24,7 +24,7 @@ function encriptar() {
     swal("Debes ingresar un texto!");
   }
 }
-
+//No logré mejorar la opcioón de que no se muestre continuamente el mensaje "Mensaje no encontrado"
 function desencriptar() {
   let texto = document.getElementById("texto").value;
   let tituloMensaje = document.getElementById("titulo-mensaje");
